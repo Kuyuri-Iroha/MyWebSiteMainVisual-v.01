@@ -1,7 +1,7 @@
 # MyWebSiteMainVisual-v.01
 [kuyuri-iroha.com](http://kuyuri-iroha.com) v.01のメインビジュアル部分です。
-[Run on web](https://github.com/Kuyuri-Iroha/MyWebSiteMainVisual-v.01/dest)
-![メインビジュアル](screenshot/screenshot.png "メインビジュアル")
+![メインビジュアル](screenshot/screenshot.png "メインビジュアル")  
+[Run on web](https://github.com/Kuyuri-Iroha/MyWebSiteMainVisual-v.01/dist)
 
 ## 注意事項
 
