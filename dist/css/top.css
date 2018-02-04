@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    overflow: auto;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    list-style-type: none;
+}
+a:link, a:visited, a:hover, a:active {
+    color: #d03c56;
+    text-decoration: none;
+}
+
+.k-container {
+    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','Meiryo UI',sans-serif;
+    background-color: white;
+}
+.k-container #k-wrapper {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#k-hamburger {
+    position: fixed;
+    z-index: 999;
+    display: none;
+    right: 0px;
+    width: 38px;
+    height: 38px;
+    margin: 21px;
+    cursor: pointer;
+}
+#k-hamburger svg {
+    width: 38px;
+    height: 38px;
+}
+.hamburger {
+    position: absolute;
+    width: 38px;
+    height: 6px;
+    fill: #222;
+}
+
+#k-globalNavM {
+    position: fixed;
+    z-index: 998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    top: 0%;
+    left: 100%;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: left 0.1s;
+}
+#k-globalNavM .k-globalNavItem {
+    display: block;
+    margin: 30px 0px;
+}
+#k-globalNavM .k-animBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    transition: background-color 0.1s;
+}
+#k-globalNavM .k-navActive {
+    background-color: #222;
+    fill: white;
+}
+#k-globalNavM .k-works {
+    width:  95px;
+    height: 55px;
+}
+#k-globalNavM .k-aboutMe {
+    width: 120px;
+    height: 55px;
+}
+#k-globalNavM .k-contact {
+    width: 112px;
+    height: 55px;
+}
+
+#k-mainVitualAnim {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 0;
+}
+
+#k-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/*Top page contants(Global navigation, Logo text)*/
+#k-topContents {
+    position: relative;
+    top: 50%; /*431px*/
+    left: 50%;
+    width: 100%;
+    height: 255px; /*255px*/
+    margin: 0;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: visible;
+    transform: translate(-50%, -50%);
+}
+@media screen and (min-width: 960px) {
+    #k-topContents {
+        top: 431px;
+        left: 0;
+        height: 255px;
+        overflow: visible;
+        transform: translate(0%, 0%);
+    }
+}
+
+#k-topGloNav .k-navItem {
+    display: inline-block;
+    margin: 0px 30px 0px 30px;
+}
+#k-topGloNav .k-navItem a {
+    display: block;
+    overflow: hidden;
+    padding: 0;
+}
+.k-animBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    transition: background-color 0.1s;
+}
+.k-animBox:hover {
+    background-color: #222;
+    fill: white;
+}
+.k-works {
+    width: 105px;
+    height: 55px;
+}
+.k-aboutMe {
+    width: 136px;
+    height: 55px;
+}
+.k-contact {
+    margin: 0 0 0 0;
+    width: 125px;
+    height: 55px;
+}
+
+#k-mainLogo {
+    display: inline-block;
+    position: relative;
+    margin-top: 65px;
+    overflow: hidden;
+    width: 0px; /*459px*/
+    height: 147px; /*147px*/
+}
+
+#k-footer {
+    position: absolute;
+    width: 100%;
+    height: 138px;
+    bottom: 0;
+    text-align: center;
+    z-index: 2;
+}
+.k-socialMedia {
+    position: absolute;
+    left: 46px;
+    height: 100%;
+}
+.k-socialMediaItem {
+    display: inline-block;
+}
+.k-socialMediaItem a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 49px 10px 49px 0px; /*centering*/
+    transition: opacity 0.1s;
+}
+.k-socialMediaItem a:hover {
+    opacity: 0.7;
+}
+#k-footer .k-copywrite {
+    display: block;
+    color: #999;
+    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','Meiryo UI',sans-serif;
+    font-size: 1.5rem;
+    margin: 62px 0; /*centering*/
+}
