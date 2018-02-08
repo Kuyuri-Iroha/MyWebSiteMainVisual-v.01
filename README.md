@@ -3,7 +3,7 @@
 
 ![メインビジュアル](screenshot/screenshot.png "メインビジュアル")  
 
-[Run on web](http://kuyuri-iroha.github.io/MyWebSiteMainVisual-v.01/dist)  
+[Run on web](http://kuyuri-iroha.github.io/kuyuri-iroha.com-v.01/dist)  
 
 ## 注意事項
 
