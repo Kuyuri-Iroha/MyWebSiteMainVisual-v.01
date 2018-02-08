@@ -83,10 +83,6 @@ a:link, a:visited, a:hover, a:active {
     width: 120px;
     height: 55px;
 }
-#k-globalNavM .k-contact {
-    width: 112px;
-    height: 55px;
-}
 
 #k-mainVitualAnim {
     display: block;
@@ -95,6 +91,14 @@ a:link, a:visited, a:hover, a:active {
     position: fixed;
     z-index: 0;
 }
+#k-mainVitualMask {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.3);
+}
 
 #k-main {
     position: absolute;
@@ -102,7 +106,7 @@ a:link, a:visited, a:hover, a:active {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 
 /*Top page contants(Global navigation, Logo text)*/
@@ -156,11 +160,6 @@ a:link, a:visited, a:hover, a:active {
     width: 136px;
     height: 55px;
 }
-.k-contact {
-    margin: 0 0 0 0;
-    width: 125px;
-    height: 55px;
-}
 
 #k-mainLogo {
     display: inline-block;
@@ -177,7 +176,7 @@ a:link, a:visited, a:hover, a:active {
     height: 138px;
     bottom: 0;
     text-align: center;
-    z-index: 2;
+    z-index: 10;
 }
 .k-socialMedia {
     position: absolute;
