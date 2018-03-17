@@ -1,6 +1,8 @@
 # MyWebSiteMainVisual-v.01
 [kuyuri-iroha.com](http://kuyuri-iroha.com) v.01のメインビジュアル部分です。  
-[Run on web](http://kuyuri-iroha.github.io/kuyuri-iroha.com-v.01/src)  
+
+[Run on web](http://kuyuri-iroha.github.io/kuyuri-iroha.com-v.01/src)    
+
 ![メインビジュアル](screenshot/screenshot.png "メインビジュアル")  
 
 ## 注意事項
